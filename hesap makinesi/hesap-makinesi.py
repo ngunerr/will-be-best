@@ -15,7 +15,7 @@ while kontrol == 1:
         print("Sayıların toplamı:", sayi1 + sayi2, "Üst menüye dönmek için 1'e basınız.","Toplama işlemine devam etmek için 2 ye basınız.")
         secim = input("Seçiminiz:")
         if secim == "1":
-            islem = 0
+            islem = "0"
             break
         else:
             continue
@@ -25,7 +25,7 @@ while kontrol == 1:
         print("Sayıların çıkarması:", sayi1 - sayi2, "Üst menüye dönmek için 1'e basınız.","Çıkarma işlemine devam etmek için 2 ye basınız.")
         secim = input("Seçiminiz:")
         if secim == "1":
-            islem = 0
+            islem = "0"
             break
         else:
             continue
@@ -35,7 +35,7 @@ while kontrol == 1:
         print("Sayıların bölümü:", sayi1 / sayi2, "Üst menüye dönmek için 1'e basınız.","Bölme işlemine devam etmek için 2 ye basınız.")
         secim = input("Seçiminiz:")
         if secim == "1":
-            islem = 0
+            islem = "0"
             break
         else:
             continue
@@ -45,7 +45,7 @@ while kontrol == 1:
         print("Sayıların Çarpması:", sayi1 * sayi2, "Üst menüye dönmek için 1'e basınız.","Çarpma işlemine devam etmek için 2 ye basınız.")
         secim = input("Seçiminiz:")
         if secim == "1":
-            islem = 0
+            islem = "0"
             break
         else:
             continue
